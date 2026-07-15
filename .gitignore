@@ -1,0 +1,14 @@
+# SSH keys / secrets — never commit
+id_diary
+id_diary.*
+*.pem
+*_rsa
+*_ed25519
+*.key
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
