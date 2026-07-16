@@ -1,4 +1,7 @@
 # SSH keys / secrets — never commit
+.env
+.env.*
+!.env.example
 id_diary
 id_diary.*
 *.pem
@@ -12,3 +15,11 @@ id_diary.*
 # Python
 __pycache__/
 *.pyc
+
+# Device pull (binary / secrets-adjacent)
+id_diary
+id_diary.pub
+device-snapshot/diary
+device-snapshot/diary.bak
+device-snapshot/authorized_keys
+device-snapshot/*.ttf
