@@ -9,6 +9,9 @@ id_diary.*
 *_ed25519
 *.key
 
+# Brainstorm visual companion sessions
+.superpowers/
+
 # macOS
 .DS_Store
 
