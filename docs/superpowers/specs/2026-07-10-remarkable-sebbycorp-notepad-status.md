@@ -25,6 +25,7 @@ The reMarkable 2 takeover app is a multi-screen shell with a hybrid multi-page /
 | Model switcher | ✅ | Footer chip + Settings |
 | Save PDF to library | ✅ | Menu Save |
 | In-app library | ✅ | AI diary PDFs |
+| Teleprompter | ✅ | Home card; GitHub `scripts/*.md`; spoken quotes; tap + 4s play |
 | Markmaps / flow / agents | ✅ | `@forti` `@f5` `@k8s` via agent-desk |
 | Watchdog systemd | ✅ | Boots into shell |
 | Ask button | ❌ removed | Redundant with AI on/off |
@@ -60,6 +61,7 @@ Home
 │            footer: pages | + | model | AI
 │            menu: tools grid | style | width | page actions
 ├── Library
+├── Teleprompter  → GitHub scripts/ list → black stage
 ├── Settings
 ├── Sleep
 └── Exit to reMarkable
