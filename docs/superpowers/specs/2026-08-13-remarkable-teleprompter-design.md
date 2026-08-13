@@ -1,7 +1,7 @@
 # reMarkable notepad — Teleprompter
 
 **Date:** 2026-08-13
-**Status:** Approved design (not implemented)
+**Status:** Shipped on-device (2026-08-13). Stage is a full-script crawl, not one-line steps.
 **Device:** reMarkable 2 / SebbyCorp Notepad (`diary.c`)
 **Scripts:** public repo `sebbycorp/web-telepromotor`, folder `scripts/*.md`
 **See also:** `2026-07-10-remarkable-sebbycorp-notepad-status.md`, `2026-07-10-remarkable-diary-shell-settings-design.md`
